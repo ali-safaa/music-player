@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <title>music player</title>
+          <link rel="stylesheet" href="style.css" />
+     </head>
+     <body>
+          <div class="container">
+               <h2 class="singer">signer name</h2>
+               <img src="/images/singer.jpg" width="300" alt="" />
+               <h3>name song</h3>
+               <div class="range">
+                    <input data-range type="range" max="240" value="0" />
+                    <h5 data-time></h5>
+               </div>
+               <audio data-audio src="/images/music.m4a"></audio>
+               <div class="player">
+                    <img
+                         src="/images/prev-button.png"
+                         width="30"
+                         height="30"
+                         alt=""
+                    />
+                    <img
+                         data-play
+                         class="play"
+                         src="/images/play-button.webp"
+                         width="40"
+                         height="40"
+                         alt=""
+                    />
+                    <img
+                         src="/images/next-button.png"
+                         width="30"
+                         height="30"
+                         alt=""
+                    />
+               </div>
+          </div>
+          <script src="script.js"></script>
+     </body>
+</html>
